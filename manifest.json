@@ -2,14 +2,10 @@
   "manifest_version": 2,
 
   "name": "Gmail Print Page Cleaner",
-  "version": "1.0.1",
-  "description": "Removes everything but the body of the email from the Gmail print email page.",
+  "version": "1.0.2",
+  "description": "Cleans and removes everything but the body of the email from the Gmail print email page.",
 
-  "permissions": [
-    "https://mail.google.com/"
-  ],
-
-  "web_accessible_resources": ["jquery-2.0.3.min.js"],
+  "permissions": [ "https://mail.google.com/*" ],
 
   "content_scripts": [
     {
